@@ -1,0 +1,14 @@
+{
+  "title": "Rendiconto",
+  "body": "Rendiconto annuale dell'Associazione Lotta ai Tumori, che include le entrate, le uscite e le attività svolte durante l'anno.",
+  "reports": [
+    {
+      "name": "Rendiconto contributo, 2021",
+      "file": "/uploads/rendiconto-2021.pdf"
+    },
+    {
+      "name": "Rendiconto contributo, 2022",
+      "file": "/uploads/rendiconto-2022.pdf"
+    }
+  ]
+}

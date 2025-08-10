@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "Passeggiata della Speranza",
+      "slug": "passeggiata-della-speranza",
+      "date": "2025-10-05T09:30:00.000Z",
+      "location": "Parco Centrale",
+      "category": "Raccolta fondi",
+      "excerpt": "Una camminata aperta a tutti per sostenere i progetti di ASLT.",
+      "image": "/placeholder.svg?height=360&width=600",
+      "body": "Unisciti a noi per una mattinata di sport e solidarietà."
+    },
+    {
+      "title": "Giornata della Prevenzione",
+      "slug": "giornata-della-prevenzione",
+      "date": "2025-09-20T08:30:00.000Z",
+      "location": "Centro Salute",
+      "category": "Prevenzione",
+      "excerpt": "Visite gratuite e informazioni utili con specialisti.",
+      "image": "/placeholder.svg?height=360&width=600",
+      "body": "Prenota il tuo slot e incontra gli specialisti sul territorio."
+    }
+  ]
+}

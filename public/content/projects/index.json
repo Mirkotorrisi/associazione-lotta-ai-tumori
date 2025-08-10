@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "1991 - Indagine statistica sull'incidenza dei tumori",
+      "slug": "indagine-statistica-incidenza-tumori-1991",
+      "excerpt": "Indagine statistica nella popolazione appartenente alla U.S.L. 37, su incarico dell'Istituto di Prima Patologia Speciale Chirurgica e Propedeutica Clinica – Università degli Studi di Catania."
+    },
+    {
+      "title": "1993 - Progetto Educazione alla salute - Istituto Magistrale",
+      "slug": "progetto-educazione-salute-istituto-magistrale-1993",
+      "excerpt": "Progetto \"Educazione alla salute\" presso l'Istituto Magistrale Statale \"Regina Elena\" di Acireale."
+    },
+    {
+      "title": "1993 - Progetto Educazione alla salute - Scuola Media",
+      "slug": "progetto-educazione-salute-scuola-media-1993",
+      "excerpt": "Progetto \"Educazione alla salute\" presso la Scuola Media Statale \"A.De Gaspari\" di Aci S. Antonio."
+    },
+    {
+      "title": "1995 - Secondo corso di Educazione alla salute",
+      "slug": "corso-educazione-salute-terza-eta-1995",
+      "excerpt": "Secondo corso di \"Educazione alla salute\" per la terza età per conto del Comune di Aci S. Antonio."
+    },
+    {
+      "title": "1996 - Seminario prevenzione tumori",
+      "slug": "seminario-prevenzione-tumori-1996",
+      "excerpt": "Seminario sulla prevenzione dei tumori della sfera genitale femminile, svolto in occasione della festa della donna nel Comune di Calatabiano."
+    },
+    {
+      "title": "2010 - Prevenzione e Salute",
+      "slug": "prevenzione-salute-aci-catena-2010",
+      "excerpt": "Progetto socio sanitario per conto del Comune di Aci Catena, per soggetti a rischio: patologie cardiovascolari, diagnosi precoce del melanoma."
+    },
+    {
+      "title": "2011 - Prevenzione e Salute - Tumori al seno",
+      "slug": "prevenzione-salute-tumori-seno-2011",
+      "excerpt": "Progetto socio sanitario per conto del Comune di Aci Catena, per soggetti a rischio: prevenzione e diagnosi precoce dei tumori al seno."
+    },
+    {
+      "title": "2012 - Analisi della morfologia mammaria in 3D",
+      "slug": "analisi-morfologia-mammaria-3d-2012",
+      "excerpt": "Progetto in collaborazione con il Dipartimento di Matematica e Informatica dell'Università di Catania e la Chirurgia Plastica dell'Istituto dei Tumori di Milano."
+    }
+  ]
+}

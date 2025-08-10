@@ -1,0 +1,237 @@
+backend:
+  name: github
+  repo: Mirkotorrisi/associazione-lotta-ai-tumori
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+local_backend: false
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "news"
+    label: "News"
+    files:
+      - file: "public/content/news/index.json"
+        label: "Elenco News"
+        name: "news-index"
+        format: "json"
+        fields:
+          - label: "News"
+            name: "items"
+            widget: "list"
+            allow_add: true
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Data", name: "date", widget: "datetime" }
+              - {
+                  label: "Estratto",
+                  name: "excerpt",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Immagine",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+              - {
+                  label: "Contenuto (Markdown)",
+                  name: "body",
+                  widget: "markdown",
+                  required: false,
+                }
+
+  - name: "events"
+    label: "Eventi"
+    files:
+      - file: "public/content/events/index.json"
+        label: "Calendario Eventi"
+        name: "events-index"
+        format: "json"
+        fields:
+          - label: "Eventi"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - { label: "Data", name: "date", widget: "datetime" }
+              - { label: "Luogo", name: "location", widget: "string" }
+              - {
+                  label: "Categoria",
+                  name: "category",
+                  widget: "string",
+                  required: false,
+                }
+              - {
+                  label: "Estratto",
+                  name: "excerpt",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Immagine",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+              - {
+                  label: "Dettagli (Markdown)",
+                  name: "body",
+                  widget: "markdown",
+                  required: false,
+                }
+
+  - name: "projects"
+    label: "Progetti"
+    files:
+      - file: "public/content/projects/index.json"
+        label: "Progetti Attivi"
+        name: "projects-index"
+        format: "json"
+        fields:
+          - label: "Progetti"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - {
+                  label: "Estratto",
+                  name: "excerpt",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Immagine",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+
+  - name: "services"
+    label: "Servizi"
+    files:
+      - file: "public/content/services/index.json"
+        label: "Servizi Offerti"
+        name: "services-index"
+        format: "json"
+        fields:
+          - label: "Servizi"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string" }
+              - {
+                  label: "Estratto",
+                  name: "excerpt",
+                  widget: "text",
+                  required: false,
+                }
+              - {
+                  label: "Immagine",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+
+  - name: "contacts"
+    label: "Contatti"
+    files:
+      - file: "public/content/contacts.json"
+        label: "Dati di Contatto"
+        name: "contacts"
+        format: "json"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Telefono", name: "phone", widget: "string" }
+          - { label: "Indirizzo", name: "address", widget: "string" }
+          - { label: "Cellulare", name: "mobile", widget: "string" }
+          - { label: "Codice Fiscale", name: "fiscalCode", widget: "string" }
+
+  - name: "pages"
+    label: "Pagine"
+    files:
+      - file: "public/content/pages/about.json"
+        label: "Chi siamo"
+        name: "about"
+        format: "json"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
+
+      - file: "public/content/pages/whatwedo.json"
+        label: "Cosa facciamo"
+        name: "whatwedo"
+        format: "json"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
+
+      - file: "public/content/pages/support.json"
+        label: "Sostienici"
+        name: "support"
+        format: "json"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
+
+      - file: "public/content/pages/board.json"
+        label: "Direttivo"
+        name: "board"
+        format: "json"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
+          - label: "Numeri utili"
+            name: "helplines"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Telefono", name: "phone", widget: "string" }
+          - label: "Link utili"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Etichetta", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+          - label: "Direttivo"
+            name: "board"
+            widget: "list"
+            fields:
+              - { label: "Nome e ruolo", name: "name", widget: "string" }
+          - label: "Revisori dei conti"
+            name: "revisors"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+          - label: "Fondatori"
+            name: "founders"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+      - file: "public/content/pages/report.json"
+        label: "Rendiconto"
+        name: "reports"
+        format: "json"
+        fields:
+          - { label: "Titolo", name: "title", widget: "string" }
+          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
+          - name: "report"
+            label: "Rendiconto"
+            widget: "list"
+            fields:
+              - { label: "Nome", name: "name", widget: "string" }
+              - name: "file"
+                widget: "file"
+                media_library:
+                  config:
+                  multiple: false
+                required: false
+                hint: "Carica un file PDF del rendiconto"

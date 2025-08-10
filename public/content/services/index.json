@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "title": "Oncologia Medica e Senologica",
+      "slug": "oncologia-medica-e-senologica",
+      "excerpt": "Dr. M. Caruso - Dr. G. Catanuto - Dott.ssa S. Aversa - Dott.ssa N. Musmeci",
+      "image": "/uploads/oncologia.jpg"
+    },
+    {
+      "title": "Urologia",
+      "slug": "urologia",
+      "excerpt": "Dr. D. Aleo",
+      "image": "/uploads/urologia.jpg"
+    },
+    {
+      "title": "Ginecologia",
+      "slug": "ginecologia",
+      "excerpt": "Dott.ssa A. Gangemi - Dr. S. Chetta - Dott.ssa M. Curatolo – Dr. V. Papa",
+      "image": "/uploads/ginecologia.jpg"
+    },
+    {
+      "title": "Ecografia",
+      "slug": "ecografia",
+      "excerpt": "Dott.ssa V. Finocchiaro - Dr. N. Giustolisi - Dott.ssa S. La Scola - Dr. F. Pane - Dr. M. Scuderi",
+      "image": "/uploads/ecografia.jpg"
+    },
+    {
+      "title": "Colposcopia",
+      "slug": "colposcopia",
+      "excerpt": "Dr.ssa C. Carcò",
+      "image": "/uploads/colposcopia.jpg"
+    },
+    {
+      "title": "Endocrinologia (Tiroide)",
+      "slug": "endocrinologia-tiroide",
+      "excerpt": "Dr. N. Giustolisi",
+      "image": "/uploads/endocrinologia.jpg"
+    },
+    {
+      "title": "Dermatologia",
+      "slug": "dermatologia",
+      "excerpt": "Dr. Li Calzi",
+      "image": "/uploads/dermatologia.jpg"
+    }
+  ]
+}

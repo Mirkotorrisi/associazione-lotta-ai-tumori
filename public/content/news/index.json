@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Campagna di prevenzione autunnale",
+      "slug": "campagna-prevenzione-autunnale",
+      "date": "2025-09-15T10:00:00.000Z",
+      "excerpt": "Parte la nuova campagna di prevenzione sul territorio con visite gratuite.",
+      "image": "/placeholder.svg?height=360&width=600",
+      "body": "## Insieme per la prevenzione\n\nLa nuova campagna offrirà visite gratuite e momenti informativi in diverse sedi."
+    },
+    {
+      "title": "Nuovo servizio di ascolto",
+      "slug": "nuovo-servizio-ascolto",
+      "date": "2025-08-01T09:00:00.000Z",
+      "excerpt": "Attivato un nuovo numero dedicato al supporto psicologico.",
+      "image": "/placeholder.svg?height=360&width=600",
+      "body": "### Supporto psicologico\n\nUn team di professionisti risponde dal lunedì al venerdì per ascolto e orientamento."
+    }
+  ]
+}

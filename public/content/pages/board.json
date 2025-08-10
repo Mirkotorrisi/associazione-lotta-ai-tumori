@@ -1,0 +1,43 @@
+{
+  "title": "Direttivo e Fondatori",
+  "helplines": [
+    { "name": "Servizio Ascolto ASLT", "phone": "+39 000 000 000" },
+    { "name": "Numero Sanitario", "phone": "1500" }
+  ],
+  "links": [
+    { "label": "Ministero della Salute", "url": "https://www.salute.gov.it" },
+    { "label": "AIRTUM", "url": "https://www.registri-tumori.it" }
+  ],
+  "founders": [
+    "Musumeci Giuseppe - Presidente",
+    "Bella Salvatore - Vice Presidente",
+    "Russo Gaetano - Tesoriere",
+    "D'Agata Rosario - Segretario",
+    "Russo Mons. Agostino - Dr. Spirituale",
+    "Sanfilippo Vincenzo",
+    "Tomarchio Sebastiano",
+    "Di Guardo Giuseppe",
+    "Gagliani Giuseppe",
+    "Di Giovanni Giuseppe",
+    "Ciofalo Alfio",
+    "Cannavò Salvatore",
+    "Grasso Rosario",
+    "Foresta Salvatore"
+  ],
+  "board": [
+    "Musumeci Giuseppe - Presidente",
+    "Caruso Michele - Vice Presidente",
+    "Finocchiaro Avia - Tesoriera",
+    "Giulia Micalizzi - Segretaria",
+    "Giorgianni Claudia",
+    "Vasta Annalisa",
+    "Bonaccorso Elisa",
+    "Nicolosi Vittoria",
+    "Giovanni Strazzeri"
+  ],
+  "revisors": [
+    "Russo Sarah",
+    "Pennisi Giuseppe Pietro Paolo",
+    "Coco Alfio"
+  ]
+}
