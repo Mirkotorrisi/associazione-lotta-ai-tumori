@@ -64,9 +64,9 @@ Note: `date` fields must be in a format compatible with `new Date(...)`. `slug` 
 
 ### CMS (/admin)
 
-- The CMS is served by `/public/admin/index.html` (Netlify CMS via CDN).
+- The CMS is served by `/(cms)/admin/page.tsx` (Decap CMS via CDN).
 - Configuration in `public/admin/config.yml`.
-  - Set the GitHub repository: replace `your-username/your-repo` with the real one and the branch (e.g., `main`).
+  - Set the GitHub repository: replace `Mirkotorrisi/associazione-lotta-ai-tumori` with the real one and the branch (e.g., `main`).
   - `media_folder`: `public/uploads` (files in repo), `public_folder`: `/uploads` (public URL).
   - Publishing mode: `editorial_workflow` (drafts, review, publish).
 - After configuring GitHub authentication (via Netlify, Vercel + OAuth app, or another Decap setup), access `/admin` to edit content.

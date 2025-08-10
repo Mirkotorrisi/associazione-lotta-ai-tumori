@@ -166,22 +166,6 @@ collections:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
 
-      - file: "public/content/pages/whatwedo.json"
-        label: "Cosa facciamo"
-        name: "whatwedo"
-        format: "json"
-        fields:
-          - { label: "Titolo", name: "title", widget: "string" }
-          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
-
-      - file: "public/content/pages/support.json"
-        label: "Sostienici"
-        name: "support"
-        format: "json"
-        fields:
-          - { label: "Titolo", name: "title", widget: "string" }
-          - { label: "Contenuto (Markdown)", name: "body", widget: "markdown" }
-
       - file: "public/content/pages/board.json"
         label: "Direttivo"
         name: "board"
